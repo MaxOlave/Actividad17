@@ -2,8 +2,8 @@
 #generar la salida de manera correcta.
 
 class Car
-	attr_accessor :model
-    attr_accessor :year
+	attr_accessor :model, :year
+    
     def initialize(model, year)
  @model = model
  @year = year
